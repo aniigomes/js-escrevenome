@@ -1,14 +1,7 @@
-function setup() {
-    createCanvas(600, 600);
-    background("black");
+html, body {
+    margin: 0;
+    padding: 0;
   }
-  
-  function draw() {
-    stroke("pink");
-    fill("red");
-    
-    if(mouseIsPressed){
-      rect(mouseX, mouseY, 20, 35);
-    }
-    
+  canvas {
+    display: block;
   }
